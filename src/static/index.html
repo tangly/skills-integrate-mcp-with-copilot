@@ -13,8 +13,16 @@
     </header>
 
     <main>
+
       <section id="activities-container">
         <h3>Available Activities</h3>
+        <div class="form-group">
+          <label for="category-filter"><strong>Filter by category:</strong></label>
+          <select id="category-filter">
+            <option value="">All categories</option>
+            <!-- Categories will be loaded here -->
+          </select>
+        </div>
         <div id="activities-list">
           <!-- Activities will be loaded here -->
           <p>Loading activities...</p>
